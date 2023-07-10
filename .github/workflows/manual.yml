@@ -1,18 +1,18 @@
  name: ACCELQ Github-A Connect
   # You may pin to the exact commit or the version.
   # uses: accelq/accelq-ci-github-actions@9a1389e5ad3169f8150f9abd7d77d141ba8abc9f
-  uses: accelq/accelq-ci-github-actions@v1.3
+  uses: "accelq/accelq-ci-github-actions@v1.3"
   with:
     # Your ACCELQ Application URL in the exact following format: https://<hostname>:<port_num>
-    appURL: https://app.accelq.io/
+    appURL: "https://app.accelq.io/"
     # Your ACCELQ User ID
-    userName: dhananjay.r@accelq.com
+    userName: "dhananjay.r@accelq.com"
     # API key available in Profile section of ACCELQ
-    apiKey: CsPl-wH3_X2QKtYLMOsw_k85z_s-ii849VTVF1d4geg
+    apiKey: "CsPl-wH3_X2QKtYLMOsw_k85z_s-ii849VTVF1d4geg"
     # Tenant Code displayed in the Profile section of ACCELQ
-    tenantCode: albertsons
+    tenantCode: "albertsons"
     # This ID should come from the CI job you saved in ACCELQ application
-    jobId: 1283
+    jobId: "1283"
     # Run Params(optional) should be JSON string form example: '{"username": "John Todd", "password": "bxW&=UVw"}'
     runParam: # optional
     # Proxy Host (optional)
